@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input} from '@angular/core';
 
 @Component({
   selector: 'app-icons',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './icons.component.css'
 })
 export class IconsComponent {
-
+  @Input() svgId:string = ''
 }
