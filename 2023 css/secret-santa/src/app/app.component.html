@@ -4,6 +4,7 @@
 <div>
   <app-input-field type="text" placeholder="name"/>
   <app-input-email/>
+  <app-input-password input="{{input_type()}}" svgId="{{svgId()}}" (click)="showPassword()"/>
 </div>
 
 <router-outlet />
