@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: #70bd91;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper--dark {
+  background-color: #243853;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.deco {
+  width: 100%;
+}
