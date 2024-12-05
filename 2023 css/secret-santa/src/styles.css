@@ -2,3 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --silverTree: #70bd91;
+  --supernova: #fac900;
+  --spicyMustard: #6e5a0d;
+  --bombay: #aeaeae;
+  --orangeRed: #ff4600;
+  --cognac: #9a360e;
+  --fireEngineRed: #c52425;
+  --turquoiseGreen: #a0ccb7;
+  --spanishGreen: #008a52;
+  --cruseo: #0a5d2c;
+  --countyGreen: #003d19;
+  --acadia: #392f2d;
+  --scotchMist: #efe9cb;
+  --nileBlue: #243853;
+  --blackPearl: #071126;
+  --pastelMagenta: #ff9dbf;
+  --padua: #b1e3cc;
+  --vistaBlue: #94d1b4;
+}
+

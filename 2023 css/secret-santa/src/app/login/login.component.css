@@ -1,17 +1,70 @@
-.wrapper {
-  background-color: #70bd91;
+.container {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+}
+
+.wrapper {
+  background-color: var(--silverTree);
+  width: 100vw;
+  height: 90%;
 }
 
 .wrapper--dark {
-  background-color: #243853;
+  background-color: var(--nileBlue);
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  height: 90%;
 }
 
 .deco {
+  width: 100vw;
+}
+
+.footer {
+  width: 100vw;
+  height: 40%;
+  background-color: var(--acadia);
+
+}
+
+.footer--dark {
+  width: 100vw;
+  height: 40%;
+  background-color: var(--blackPearl);
+}
+
+
+.footer__data {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40vw;
+  padding-top: 4vh;
+}
+
+.logo {
+  width: 70%;
+  filter: invert(88%) sepia(6%) saturate(1077%) hue-rotate(99deg) brightness(88%) contrast(90%);
+}
+
+.logo--dark {
+  width: 70%;
+  filter: invert(92%) sepia(33%) saturate(261%) hue-rotate(9deg) brightness(108%) contrast(87%);
+}
+
+.footer__text {
+  display: flex;
   width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__text-copy {
+  color: var(--scotchMist);
+}
+
+.footer__text-links {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
 }

@@ -8,7 +8,7 @@
 .field-container__input-field {
   height: 8vh;
   width: 20vw;
-  background-color: #70bd91;
+  background-color: var(--scotchMist);
   border-radius: 10px;
   padding-left: 1vw;
   font-family: Bebas Neue, serif;
@@ -37,5 +37,5 @@
 }
 
 .field-container__input-field:invalid {
-  background-color: #ff4600;
+  background-color: var(--orangeRed);
 }
