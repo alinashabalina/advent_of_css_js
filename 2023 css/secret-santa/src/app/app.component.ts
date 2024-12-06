@@ -5,11 +5,11 @@ import {AvatarComponent} from './shared/avatar/avatar.component';
 import {InputFieldComponent} from './shared/input-field/input-field.component';
 import {InputEmailComponent} from './shared/input-email/input-email.component';
 import {InputPasswordComponent} from './shared/input-password/input-password.component';
-import {LoginComponent} from './login/login.component';
+import {PageComponent} from './page/page.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, IconsComponent, AvatarComponent, InputFieldComponent, InputEmailComponent, InputPasswordComponent, LoginComponent],
+  imports: [RouterOutlet, IconsComponent, AvatarComponent, InputFieldComponent, InputEmailComponent, InputPasswordComponent, PageComponent],
   templateUrl: './app.component.html',
   standalone: true,
   styleUrl: './app.component.css'

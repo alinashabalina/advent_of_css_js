@@ -1,13 +1,18 @@
 import {Component, signal} from '@angular/core';
+import {SubmitComponent} from '../shared/submit/submit.component';
+import {InputFieldComponent} from '../shared/input-field/input-field.component';
 
 @Component({
-  selector: 'app-login',
-  imports: [],
-  templateUrl: './login.component.html',
+  selector: 'app-page',
+  imports: [
+    SubmitComponent,
+    InputFieldComponent
+  ],
+  templateUrl: './page.component.html',
   standalone: true,
-  styleUrl: './login.component.css'
+  styleUrl: './page.component.css'
 })
-export class LoginComponent {
+export class PageComponent {
   mode = signal('wrapper')
   footer_mode = signal('footer')
   logo_mode = signal('logo')
