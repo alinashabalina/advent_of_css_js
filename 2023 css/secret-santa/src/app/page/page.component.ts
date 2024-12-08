@@ -1,12 +1,16 @@
 import {Component, signal} from '@angular/core';
 import {SubmitComponent} from '../shared/submit/submit.component';
 import {InputFieldComponent} from '../shared/input-field/input-field.component';
+import {LoginFormComponent} from '../login-form/login-form.component';
+import {IconsComponent} from '../shared/icons/icons.component';
 
 @Component({
   selector: 'app-page',
   imports: [
     SubmitComponent,
-    InputFieldComponent
+    InputFieldComponent,
+    LoginFormComponent,
+    IconsComponent
   ],
   templateUrl: './page.component.html',
   standalone: true,

@@ -13,6 +13,7 @@
   background-color: var(--nileBlue);
   width: 100vw;
   height: 90%;
+  position: relative;
 }
 
 .deco {
@@ -67,4 +68,12 @@
   width: 75%;
   display: flex;
   justify-content: space-between;
+}
+
+.login {
+  width: 30vw;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 42%;
 }
